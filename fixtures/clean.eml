@@ -1,0 +1,67 @@
+From: accounts@northwind-paper.example
+To: accounts-payable@example-buyer.test
+Subject: Invoice NW-1042
+Date: Thu, 01 Jan 2026 00:00:00 +0000
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="payee-diff-fixture-boundary"
+
+--payee-diff-fixture-boundary
+Content-Type: multipart/alternative; boundary="payee-diff-fixture-alt"
+
+--payee-diff-fixture-alt
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 8bit
+
+Northwind Paper Ltd
+Invoice NW-1042
+Payee: Northwind Paper Ltd
+IBAN: GB29FAKE00112210293847
+Account number: 10293847
+Sort code: 00-11-22
+IFSC: FAKE0NWP123
+UPI: northwind.paper@upi
+Amount due: GBP 1,250.00
+--payee-diff-fixture-alt
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: 8bit
+
+<!DOCTYPE html>
+<html>
+<head><meta charset="utf-8"><title>Invoice NW-1042</title></head>
+<body style="background-color:#ffffff;color:#000000">
+  <p>Northwind Paper Ltd</p>
+  <p>Invoice NW-1042</p>
+  <p>Payee: Northwind Paper Ltd</p>
+  <p>IBAN: GB29FAKE00112210293847</p>
+  <p>Account number: 10293847</p>
+  <p>Sort code: 00-11-22</p>
+  <p>IFSC: FAKE0NWP123</p>
+  <p>UPI: northwind.paper@upi</p>
+  <p>Amount due: GBP 1,250.00</p>
+
+</body>
+</html>
+--payee-diff-fixture-alt--
+--payee-diff-fixture-boundary
+Content-Type: application/pdf; name="invoice.pdf"
+Content-Disposition: attachment; filename="invoice.pdf"
+Content-Transfer-Encoding: base64
+
+JVBERi0xLjQKMSAwIG9iago8PCAvVHlwZSAvQ2F0YWxvZyAvUGFnZXMgMiAwIFIgPj4KZW5kb2Jq
+CjIgMCBvYmoKPDwgL1R5cGUgL1BhZ2VzIC9LaWRzIFs0IDAgUl0gL0NvdW50IDEgPj4KZW5kb2Jq
+CjMgMCBvYmoKPDwgL1R5cGUgL0ZvbnQgL1N1YnR5cGUgL1R5cGUxIC9CYXNlRm9udCAvSGVsdmV0
+aWNhID4+CmVuZG9iago0IDAgb2JqCjw8IC9UeXBlIC9QYWdlIC9QYXJlbnQgMiAwIFIgL01lZGlh
+Qm94IFswIDAgNjEyIDc5Ml0gL0Nyb3BCb3ggWzAgMCA2MTIgNzkyXSAvQ29udGVudHMgNSAwIFIg
+L1Jlc291cmNlcyA8PCAvRm9udCA8PCAvRjEgMyAwIFIgPj4gPj4gPj4KZW5kb2JqCjUgMCBvYmoK
+PDwgL0xlbmd0aCAzNzAgPj4Kc3RyZWFtCkJUCi9GMSAxMSBUZgowIDAgMCByZwowIFRyCjEgMCAw
+IDEgNzIgNzQwIFRtCihOb3J0aHdpbmQgUGFwZXIgTHRkKSBUagowIC0xNiBUZAooSW52b2ljZSBO
+Vy0xMDQyKSBUagowIC0xNiBUZAooUGF5ZWU6IE5vcnRod2luZCBQYXBlciBMdGQpIFRqCjAgLTE2
+IFRkCihJQkFOOiBHQjI5RkFLRTAwMTEyMjEwMjkzODQ3KSBUagowIC0xNiBUZAooQWNjb3VudCBu
+dW1iZXI6IDEwMjkzODQ3KSBUagowIC0xNiBUZAooU29ydCBjb2RlOiAwMC0xMS0yMikgVGoKMCAt
+MTYgVGQKKElGU0M6IEZBS0UwTldQMTIzKSBUagowIC0xNiBUZAooVVBJOiBub3J0aHdpbmQucGFw
+ZXJAdXBpKSBUagowIC0xNiBUZAooQW1vdW50IGR1ZTogR0JQIDEsMjUwLjAwKSBUagpFVAplbmRz
+dHJlYW0KZW5kb2JqCnhyZWYKMCA2CjAwMDAwMDAwMDAgNjU1MzUgZiAKMDAwMDAwMDAwOSAwMDAw
+MCBuIAowMDAwMDAwMDU4IDAwMDAwIG4gCjAwMDAwMDAxMTUgMDAwMDAgbiAKMDAwMDAwMDE4NSAw
+MDAwMCBuIAowMDAwMDAwMzM0IDAwMDAwIG4gCnRyYWlsZXIgPDwgL1NpemUgNiAvUm9vdCAxIDAg
+UiA+PgpzdGFydHhyZWYKNzU0CiUlRU9GCg==
+--payee-diff-fixture-boundary--

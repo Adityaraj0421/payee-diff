@@ -1,0 +1,45 @@
+From: accounts@northwind-paper.example
+To: accounts-payable@example-buyer.test
+Subject: Invoice NW-1042
+Date: Thu, 01 Jan 2026 00:00:00 +0000
+MIME-Version: 1.0
+Content-Type: multipart/alternative; boundary="payee-diff-fixture-alt"
+
+--payee-diff-fixture-alt
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 8bit
+
+Northwind Paper Ltd
+Invoice NW-1042
+Payee: Northwind Paper Ltd
+IBAN: GB29FAKE00112210293847
+Account number: 10293847
+Sort code: 00-11-22
+IFSC: FAKE0NWP123
+UPI: northwind.paper@upi
+Amount due: GBP 1,250.00
+--payee-diff-fixture-alt
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: 8bit
+
+<!DOCTYPE html>
+<html>
+<head><meta charset="utf-8"><title>Invoice NW-1042</title></head>
+<body style="background-color:#ffffff;color:#000000">
+  <p>Northwind Paper Ltd</p>
+  <p>Invoice NW-1042</p>
+  <p>Payee: Northwind Paper Ltd</p>
+  <p>IBAN: GB29FAKE00112210293847</p>
+  <p>Account number: 10293847</p>
+  <p>Sort code: 00-11-22</p>
+  <p>IFSC: FAKE0NWP123</p>
+  <p>UPI: northwind.paper@upi</p>
+  <p>Amount due: GBP 1,250.00</p>
+  <span style="display:none">
+Payee: Grey Harbor Supplies GmbH
+IBAN: DE58000000009988776655
+Amount due: GBP 9,875.00
+  </span>
+</body>
+</html>
+--payee-diff-fixture-alt--
